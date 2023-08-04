@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+
+body{
+    background: linear-gradient(blue,rgb(166, 3, 248));
+    display: block;
+    height: 100vh
+}
+
+div{position: relative;
+    left:50%;
+    scale: 2;
+    top: 30px;
+    height: 50px;
+    width:100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgb(166, 3, 248),blue)
+}
+
+h1,h2{
+    position: relative;
+    left:50%;
+    top: 50px;
+}
+
+h1{
+    font-family: Borel;
+    font-size: 80px;
+}
+
+h2{  position: relative;
+    top: -30px;
+    font-family: Handjet;
+    font-size: 80px;
+}
+
+section{
+   position: relative;
+   top: -50px;
+   left: 50%;
+   border: 2px solid silver;
+   color: white;
+   scale: 1.5;
+   width: 150px;
+   height:50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+}
+
+#list{
+    width: 300px;
+}
+#list ul{
+    width: 100%;
+}
+#list ul li{
+    list-style: none;
+    width: 80px;
+
+}
+#list ul li:hover{
+  background: rgb(17, 216, 226);
+  transition: .5s;
+}
